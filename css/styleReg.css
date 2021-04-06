@@ -1,0 +1,19 @@
+
+.message
+{
+    color:rgb(243, 47, 12);
+}
+.col-sm-2
+{
+    color:aliceblue;
+    margin: 0 auto;
+}
+.form-check-label
+{
+    color:aliceblue;
+}
+.container-xxl > form
+{
+    margin-top: 10%;
+}
+

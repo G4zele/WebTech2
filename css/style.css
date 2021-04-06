@@ -1,0 +1,63 @@
+.container {
+    margin-top: 20px;
+}
+
+.card-body {
+    background-color: rgb(173, 76, 152);
+}
+
+.card-text {
+    height: 80px;
+    overflow-y: auto;
+}
+
+.container-xxl {
+    margin-top: 5px;
+    margin-right: 500px;
+}
+
+.text {
+    color: #fff;
+}
+
+.description {
+    color: #fff;
+    font-size: 30px;
+}
+
+.container-xxl>a {
+    color: #fff;
+    border-color: #fff;
+}
+
+.card {
+    display: inline-block;
+    /* Строчно-блочный элемент */
+    overflow: hidden;
+    /* Скрываем всё за контуром */
+    margin-bottom: 2%;
+    margin-top: 2%;
+    width: 18rem;
+}
+
+.card-img-top {
+    transition: 0.4s;
+    /* Время эффекта */
+    display: block;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1);
+    /* Увеличиваем масштаб */
+}
+
+@media screen and (max-width: 1440px) {
+    .card {
+        width: 13.5rem;
+    }
+    @media screen and (max-width: 992px) {
+        .card {
+            width: 18rem;
+        }
+    }
+}
